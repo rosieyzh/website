@@ -22,35 +22,15 @@ class Home extends Component {
     ReactGA.pageview(window.location.pathname);
 
   }
-
-  getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
-  }
-
-  componentDidMount(){
-    this.getResumeData();
-  }
-
   render() {
     return (
       <div className="Home">
-          <Header data={this.state.resumeData.main}/>
-          <About data={this.state.resumeData.main}/>
-          <Portfolio data={this.state.resumeData.portfolio}/>
-          <Resume data={this.state.resumeData.resume}/>
-          <IsoMath data={this.state.resumeData.testimonials}/>
-          <Footer data={this.state.resumeData.main}/>
+          <Header />
+          <About />
+          <Portfolio />
+          <Resume />
+          <IsoMath />
+          <Footer />
       </div>
     );
   }

@@ -15,17 +15,6 @@ class Header extends Component {
 
   render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
-      var point_1= this.props.data.point_1;
-      var point_2= this.props.data.point_2;
-      var point_3= this.props.data.point_3;
-      var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-      })
-    }
-
     return (
       <header id="home">
         <nav id="nav-wrap">
