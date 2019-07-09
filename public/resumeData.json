@@ -5,7 +5,7 @@
     "point_1": " > love math",
     "point_2": " > often code & doodle",
     "point_3": " > occasionally write",
-    "image":"images/profilepic.jpg",
+    "image":"profilepic.jpg",
     "bio":"I'm currently completing my bachelor's degree in mathematics and computer science at McGill University. My fields of interest include abstract algebra, natural language processing, and machine learning theory. I'm a lover of nature, dessert, board games, graphic design, ultimate, and puns! In fact, I had an argument with my friend about the shape of a coffee cup today⁠— it almost torus apart. I owe them a topology, I honestly donut know what came over me... ",
     "email": "rosieyzh@gmail.com",
     "phone": "555-555-5555",
@@ -104,7 +104,7 @@
         "title":"ClimateTimes",
         "category":"Analysis of news articles covering climate change using sentiment analysis, word embeddings and topic modelling. Project as part of 2019 AIForGood cohort.",
         "image":"climatetimes.png",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://github.com/rosieyzh/climate-score"
       },
       {
         "title":"Fractal Generator",
