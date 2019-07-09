@@ -1,0 +1,123 @@
+{
+  "main": {
+    "name":"Rosie Zhao",
+    "occupation":"Math/CS Student at McGill University",
+    "point_1": " > love math",
+    "point_2": " > often code & doodle",
+    "point_3": " > occasionally write",
+    "image":"profilepic.jpg",
+    "bio":"I'm currently completing my bachelor's degree in mathematics and computer science at McGill University. My fields of interest include abstract algebra, natural language processing, and machine learning theory. I'm a lover of nature, dessert, board games, graphic design, ultimate, and puns! In fact, I had an argument with my friend about the shape of a coffee cup today⁠— it almost torus apart. I owe them a topology, I honestly donut know what came over me... ",
+    "email": "rosieyzh@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.rosieyzh.github.io",
+    "resumedownload":"resume.pdf",
+    "social":[
+
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/rosieyzh/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/rosieyzh",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University?",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2007",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"School #1 Maybe College?",
+        "degree":"What did you study 101",
+        "graduated":"March 2003",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Style Transfer with Studio Ghibli Images",
+        "category":"Pytorch implementation for MAIS202 Final Project.",
+        "image":"styletransfer.jpg",
+        "url":"https://github.com/rosieyzh/MAIS202-Style-Transfer"
+      },
+      {
+        "title":"ClimateTimes",
+        "category":"Analysis of news articles covering climate change using sentiment analysis, word embeddings and topic modelling. Project as part of 2019 AIForGood cohort.",
+        "image":"climatetimes.png",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Fractal Generator",
+        "category":"Based off of the H-Tree Fractal. Used Processing.js library and HTML/CSS.",
+        "image":"fractal.png",
+        "url":"https://rosieyzh.github.io/lipschitz/"
+      },
+      {
+        "title":"Nim Game",
+        "category":"Eating donuts meets mathematical strategy! Used Processing for Java.",
+        "image":"nim.png",
+        "url":"https://github.com/rosieyzh/nim"
+      }
+    ]
+  }
+}
