@@ -8,6 +8,16 @@ class Gallery extends Component {
   render() {
   	const images = [
       {
+        original: 'images/gallery/img_8.png',
+        thumbnail: 'images/gallery/img_8.png',
+        sizes: "(max-height: 600px)"
+      },
+      {
+        original: 'images/gallery/img_7.png',
+        thumbnail: 'images/gallery/img_7.png',
+        sizes: "(max-height: 600px)"
+      },
+      {
         original: 'images/gallery/img_1.jpg',
         thumbnail: 'images/gallery/img_1.jpg',
         sizes: "(max-height: 600px)"
