@@ -21,8 +21,8 @@ class Portfolio extends Component {
                   <img alt="Style Transfer with Studio Ghibli Images" src="images/portfolio/styletransfer.jpg"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>"Style Transfer with Studio Ghibli Images"</h5>
-                      <p>"Pytorch implementation for MAIS202 Final Project."</p>
+                      <h5>Style Transfer with Studio Ghibli Images</h5>
+                      <p>Pytorch implementation for MAIS202 Final Project.</p>
                     </div>
                   </div>
                   <div className="link-icon"><i className="fa fa-link"></i></div>
@@ -38,8 +38,8 @@ class Portfolio extends Component {
                   <img alt="ClimateTimes" src="images/portfolio/climatetimes.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>"ClimateTimes"</h5>
-                      <p>"Analysis of news articles covering climate change using sentiment analysis, word embeddings and topic modelling. Project as part of 2019 AIForGood cohort."</p>
+                      <h5>ClimateTimes</h5>
+                      <p>Analysis of news articles covering climate change using sentiment analysis, word embeddings and topic modelling. Project as part of 2019 AIForGood cohort.</p>
                     </div>
                   </div>
                   <div className="link-icon"><i className="fa fa-link"></i></div>
@@ -55,8 +55,8 @@ class Portfolio extends Component {
                   <img alt="Fractal Generator" src="images/portfolio/fractal.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>"Fractal Generator"</h5>
-                      <p>"Based off of the H-Tree Fractal. Used Processing.js library and HTML/CSS."</p>
+                      <h5>Fractal Generator</h5>
+                      <p>Based off of the H-Tree Fractal. Used Processing.js library and HTML/CSS.</p>
                     </div>
                   </div>
                   <div className="link-icon"><i className="fa fa-link"></i></div>
@@ -72,8 +72,8 @@ class Portfolio extends Component {
                   <img alt="Nim Game" src="images/portfolio/nim.png"/>
                   <div className="overlay">
                     <div className="portfolio-item-meta">
-                      <h5>"Nim Game"</h5>
-                      <p>"Eating donuts meets mathematical strategy! Used Processing for Java."</p>
+                      <h5>Nim Game</h5>
+                      <p>Eating donuts meets mathematical strategy! Used Processing for Java.</p>
                     </div>
                   </div>
                   <div className="link-icon"><i className="fa fa-link"></i></div>
